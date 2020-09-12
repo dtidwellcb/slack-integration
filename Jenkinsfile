@@ -3,7 +3,7 @@ pipeline {
     agent none
     environment {
         // tools
-        MAVEN_TOOL = "maven3"
+        MAVEN_TOOL = "mvn"
     }
 
     tools {
